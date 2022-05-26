@@ -45,6 +45,8 @@ function App() {
     <div className="app">
       <h1>DOG APP</h1>
       <br/>
+      <label>Select the breed of the dog:</label>
+      <br/>
       <Select updateDog={updateDog}/>
 
       {error && <Error error={error}/>}
